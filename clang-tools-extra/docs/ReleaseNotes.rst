@@ -113,10 +113,6 @@ Improvements to clang-tidy
 
 - Improved `--dump-config` to print check options in alphabetical order.
 
-- Improved :doc:`readability-identifier-naming
-  <clang-tidy/checks/readability/IdentifierNamingCheck>` check to allow for
-  Leading_upper_snake_case naming convention.
-
 New checks
 ^^^^^^^^^^
 
@@ -256,6 +252,10 @@ Changes in existing checks
 - Improved :doc:`readability-static-accessed-through-instance
   <clang-tidy/checks/readability/static-accessed-through-instance>` check to
   identify calls to static member functions with out-of-class inline definitions.
+
+- Improved :doc:`readability-identifier-naming
+  <clang-tidy/checks/readability/IdentifierNamingCheck>` Leading_upper_snake_case ->
+  Leading_upper_snake_case. allow for -> support
 
 Removed checks
 ^^^^^^^^^^^^^^
