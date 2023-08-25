@@ -240,6 +240,10 @@ Changes in existing checks
   <clang-tidy/checks/readability/identifier-naming>` check to emit proper
   warnings when a type forward declaration precedes its definition.
 
+- Improved :doc:`readability-identifier-naming
+  <clang-tidy/readability/IdentifierNamingCheck>` allow for
+  ``Leading_upper_snake_case`` naming convention.
+
 - Improved :doc:`readability-implicit-bool-conversion
   <clang-tidy/checks/readability/implicit-bool-conversion>` check to take
   do-while loops into account for the `AllowIntegerConditions` and
@@ -252,10 +256,6 @@ Changes in existing checks
 - Improved :doc:`readability-static-accessed-through-instance
   <clang-tidy/checks/readability/static-accessed-through-instance>` check to
   identify calls to static member functions with out-of-class inline definitions.
-
-- Improved :doc:`readability-identifier-naming
-  <clang-tidy/checks/readability/IdentifierNamingCheck>` Leading_upper_snake_case ->
-  Leading_upper_snake_case. allow for -> support
 
 Removed checks
 ^^^^^^^^^^^^^^
