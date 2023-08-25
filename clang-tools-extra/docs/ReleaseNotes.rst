@@ -238,11 +238,8 @@ Changes in existing checks
 
 - Improved :doc:`readability-identifier-naming
   <clang-tidy/checks/readability/identifier-naming>` check to emit proper
-  warnings when a type forward declaration precedes its definition.
-
-- Improved :doc:`readability-identifier-naming
-  <clang-tidy/readability/IdentifierNamingCheck>` allow for
-  ``Leading_upper_snake_case`` naming convention.
+  warnings when a type forward declaration precedes its definition and
+  added support for ``Leading_upper_snake_case`` naming convention.
 
 - Improved :doc:`readability-implicit-bool-conversion
   <clang-tidy/checks/readability/implicit-bool-conversion>` check to take
